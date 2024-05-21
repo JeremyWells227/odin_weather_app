@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Odin Project Weather App</title>
 </head>
 <body>
+	<div class="container flex flex-column">
+		<div class="container">
+			<form id="searchForm" >
+				<label for="search">Search</label>
+				<input id="search" type="text">
+				<button  type="submit">Submit</button>
+			</form>
+		</div>
+		<div class="container">
+			<div id="current" class="card">
+				<h1  class="card-header" >Today's weather</h1>
+						<div id="current-card"></div>
+			</div>
+			<div class="forecast">
+				<h1 class="section-header" >Forecast</h1>
+				<div class="container-row">
+					<div id="todayfcst" class="card">
+						<h1 class="card-header" >Today</h1>
+						<div id="todayfcst-card"></div>
+					</div>
+					<div id="tomorrowfcst" class="card">
+						<h1 class="card-header" >Tomorrow</h1>
+						<div id="tomorrowfcst-card"></div>
+					</div>
+					<div id="dayaftertomorrowfcst" class="card">
+						<h1 class="card-header" >Day after Tomorrow</h1>
+						<div id="tomorrowtomorrowfcst-card"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	
 </body>
 </html>

@@ -4,8 +4,8 @@ import "./style.css";
 
 
 const API_KEY=process.env.WEATHER_API_KEY;
-const API_URL_CURRENT="http://api.weatherapi.com/v1/current.json";
-const API_URL_FORECAST="http://api.weatherapi.com/v1/forecast.json";
+const API_URL_CURRENT="https://api.weatherapi.com/v1/current.json";
+const API_URL_FORECAST="https://api.weatherapi.com/v1/forecast.json";
 let icon_cache = {}
 let is_metric = false
 

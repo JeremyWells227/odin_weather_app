@@ -6,7 +6,13 @@
 </head>
 <body>
 	<div class="container flex flex-column">
+		<div id="location-div">
+			<h1 id="location">Loading</h1>
+			<h2 id="location-country"></h2>
+			
+		</div>
 		<div class="container">
+			<button id="unit-toggle">Metric</button>
 			<form id="searchForm" >
 				<label for="search">Search</label>
 				<input id="search" type="text">
@@ -15,7 +21,7 @@
 		</div>
 		<div class="container">
 			<div id="current" class="card">
-				<h1  class="card-header" >Today's weather</h1>
+				<h1  class="card-header" >Today's Weather</h1>
 						<div id="current-card"></div>
 			</div>
 			<div class="forecast">
@@ -30,7 +36,7 @@
 						<div id="tomorrowfcst-card"></div>
 					</div>
 					<div id="dayaftertomorrowfcst" class="card">
-						<h1 class="card-header" >Day after Tomorrow</h1>
+						<h1 class="card-header" >The Day After</h1>
 						<div id="tomorrowtomorrowfcst-card"></div>
 					</div>
 				</div>

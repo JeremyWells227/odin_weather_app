@@ -28,6 +28,10 @@ body{
 
 }
 
+a {
+@apply text-blue-500 hover:text-blue-900
+}
+
 .section-header {
 	margin: auto;
 	@apply font-bold lg:text-2xl place-self-center justify-self-center text-center md:text-base sm:text-sm
